@@ -1,4 +1,4 @@
-import { Seller } from './seller';
+import { Seller } from './seller ';
 
 export type Sele = {
     id: number;
@@ -9,7 +9,7 @@ export type Sele = {
     seller : Seller;
 }
 
-export type SelePage = {
+export type SalePage = {
     content?: Sele[];
     last: boolean;
     totalElements: number;
